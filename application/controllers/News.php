@@ -17,6 +17,8 @@ class News extends RestController
         // Construct the parent class
         parent::__construct();
         $this->load->model('news_m');
+        var_dump(FCPATH);
+        die();
     }
 
     public function index_get()
